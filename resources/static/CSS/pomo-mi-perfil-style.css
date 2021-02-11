@@ -1,0 +1,104 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.pomo{
+    width: 180px;
+    height: 43px;
+
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logout-boton{
+	background: white;
+    color: rgb(92,162,213) ;
+    text-decoration: none;
+    border : 1px solid  ;
+    padding: 5px;
+    width: 110px;
+    text-align: center;
+    align-self: baseline;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+
+ th:hover, td:hover{
+   background-color:  #AED7F2;
+   color: white;
+ }
+
+ .fondito{
+ background-image: url("");     /* no me agarra la imagen por laguna extraña razon y antes si cualquier cosa dejalo asi  */
+    background-size: cover;
+    max-height: 500px;  
+ }
+
+ #izq{
+     padding-left: 100px;
+ }
+
+ #derch{
+     padding-right:100px ;
+ }
+#perfil{
+	background-color:  #AED7F2;
+	color:white;
+	border: 1px solid #5CA2D5;
+}
+#proyectos{
+	color:#5CA2D5;
+	border: 1px solid #5CA2D5;
+	
+}
+.profile-img{
+	text-align:center;
+	margin-top:-80px;
+}
+.user-info{
+	text-align:center;
+	color:rgb(92,162,213);
+	
+}
+.footer{
+    display: block;
+}
+.footer-enlaces{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-txt{
+    display: flex;
+}
+.footer-txt p , a{
+    color:rgb(245, 146, 146);
+    text-decoration:none;
+}
+
+.pomo-footer{
+    width: 112px;
+    height: 28px;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-square{
+    color:rgb(245, 146, 146);
+    font-size: 30px;
+    margin: 5px;
+}
+.copyrights{
+    text-align: center;
+    color:rgb(245, 146, 146);
+}
+.fa-registered{
+    font-size: 10px;
+}

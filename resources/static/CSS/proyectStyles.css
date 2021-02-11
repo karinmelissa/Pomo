@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    
+}
+.user-botones{
+	display:flex;
+    justify-content: space-between;
+}
+.pomo{
+    width: 180px;
+    height: 43px;
+
+}
+.logout-boton{
+	background: white;
+    color: rgb(92,162,213) ;
+    text-decoration: none;
+    border : 1px solid  ;
+    padding: 5px;
+    width: 110px;
+    text-align: center;
+    align-self: baseline;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px 80px 200px;
+}
+
+h1{
+	color:rgb(92,162,213);
+	font-size:18px;
+}
+
+
+#conejo{
+width: 550px;
+padding-right: 80px;
+}
+
+
+.form p{
+    text-align: end;
+}
+
+.title-space{
+    color: rgb(56, 56, 56);
+    background-color: rgb(236,236,236);
+    width: 320px;
+    height: 40px;
+    border:rgb(236,236,236) ;
+    text-align: end;
+    font-size: 18px;
+}
+.desc-space{
+	color: rgb(56, 56, 56);
+    background-color: rgb(236,236,236);
+    width: 320px;
+    height: 150px;
+    border:rgb(236,236,236) ;
+    text-align: end;
+    font-size: 18px;
+	
+}
+.submit-boton{
+    color:rgb(245, 146, 146);
+    border: 1px solid rgb(245, 146, 146);
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 200px;
+  
+}
+.footer{
+    display: block;
+}
+.footer-enlaces{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-txt{
+    display: flex;
+}
+.footer-txt p , a{
+    color:rgb(245, 146, 146);
+    text-decoration:none;
+}
+
+.pomo-footer{
+    width: 112px;
+    height: 28px;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-square{
+    color:rgb(245, 146, 146);
+    font-size: 30px;
+    margin: 5px;
+}
+.copyrights{
+    text-align: center;
+    color:rgb(245, 146, 146);
+}
+.fa-registered{
+    font-size: 10px;
+}
+
+#fdescripcion{
+ height: 100px;
+ text-align: center;
+}
